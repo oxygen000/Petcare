@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  
+    &::-webkit-scrollbar {
+      width: 0.2rem;
+    }
+    &::-webkit-scrollbar-track {
+      background: #5381c1a8;
+    }
+    &::-webkit-scrollbar-thumb {
+      background: rgb(189, 182, 182);
+      border-radius: 90px;
+    }
+  }

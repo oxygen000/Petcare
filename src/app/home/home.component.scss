@@ -1,0 +1,49 @@
+.home {
+    margin-top: -142px;
+    .box {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      background-size: cover !important;
+      background-position: center !important;
+      justify-content: center;
+      padding: 2rem 9%;
+      background-blend-mode: multiply;
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover;
+    }
+      .content {
+       text-align: center;
+       align-items: center;
+        h1{
+            
+            color: white;
+            font-size: 80px;
+            text-align: center;
+        }
+        h3{
+            margin-top: 30px;
+            color: white;
+            font-size: 20px;
+            text-align: center;
+        }
+        .order{
+            margin-top: 30px;
+            .order-but{
+                display: block;
+                padding: 5px;
+                font-size: 35px;
+                    background-color: rgb(237, 195, 21);
+                    text-decoration: none;
+                    border-radius: 32.5px 32.5px 32.5px 32.5px;
+                    color: white;
+                    width: 100%;
+                    max-width: 322px;
+                    height: 65px;
+            }
+        }
+        
+      }
+  }
+  

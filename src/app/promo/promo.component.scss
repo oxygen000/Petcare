@@ -1,0 +1,50 @@
+.box {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background-size: cover !important;
+    background-position: center !important;
+    justify-content: center;
+    padding: 2rem 9%;
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
+  .titel{
+    margin-top: 80px;
+    text-align: center;
+    h1{
+        color: white;
+        font-weight: 800;
+        font-size: 80px;
+        
+    }
+    p{
+        color: white;
+        font-weight: 800;
+        font-size: 20px;
+    }
+    
+  }
+  .cards{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    i{
+      font-size: 250px;
+    }
+    .card{
+      display: flex;
+      background: none;
+      border: 0;
+      color: white;
+    }
+    .text{
+      margin-top: -300px;
+      margin-right: 80px;
+      h2{
+        font-size: 50px;
+      }
+    }
+  }
