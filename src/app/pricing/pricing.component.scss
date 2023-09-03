@@ -1,0 +1,74 @@
+.box{
+    min-height: 100vh;
+display: flex;
+align-items: center;
+background-size: cover !important;
+background-position: center !important;
+justify-content: center;
+padding: 2rem 9%;
+background-blend-mode: multiply;
+background-attachment: fixed;
+background-position: center;
+background-size: cover;
+}
+.titel{
+    text-align: center;
+    h1{
+        color: white;
+        font-weight: 800;
+        font-size: 80px;
+        
+    }
+    p{
+        color: white;
+        font-weight: 800;
+        font-size: 20px;
+    }
+    
+  }
+  .box-container {
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 50px;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  }
+
+
+  .cards{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+h4{
+    margin-top: 26px;
+    font-size: 36px;
+    color: #528fe4;
+}
+p{
+    font-size: 16px;
+    color: #528fe4;
+}
+.card{
+        width: 300px;
+        height: 450px;
+      }
+      .order{
+
+      }
+      .order-but{
+        display: block;
+        justify-content: center;
+       text-decoration: none;
+       margin-left: 45px;
+       color: white;
+       padding: 5px;
+        font-size: 35px;
+            background-color: rgb(237, 195, 21);
+            text-decoration: none;
+            border-radius: 32.5px 32.5px 32.5px 32.5px;
+            color: white;
+            max-width: 222px;
+            height: 65px;
+    }
+  }
